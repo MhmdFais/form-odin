@@ -5,4 +5,4 @@ Form does not connected any backend server
 
 ## Acknowledegement
 
-Project inpiration from The Odin Project
+Project inspiration from [The Odin Project](https://www.theodinproject.com/home).

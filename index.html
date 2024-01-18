@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form | Odin</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main-container">
@@ -14,24 +17,66 @@
                 <div class="logo-text">ODIN</div>
             </div>
             <div class="image-credit">
-                <p class="para-credit">Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Haile</a> 
-                    on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank">Unspalsh</a>
+                <p class="para-credit">Photo by <a class="pc-link" href="https://unsplash.com/@haliewestphoto" target="_blank">Haile</a> 
+                    on <a class="pc-link" href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank">Unspalsh</a>
                 </p>
             </div>
         </div>
         <div class="right-side">
             <div class="main-heading">
-                <div class="heading-para"></div>
-                <div class="heading-line"></div>
+                <div class="heading-para">
+                    <p class="main-para">
+                        This is not a real online serice! You know you need something<br> like this in
+                        your life to help you realize your deepest dreams.<br> Sign up <span>now</span>
+                        and get started.
+                    </p>
+                </div>
+                <p class="secondary-line">
+                    You <span>know</span> you want to.
+                </p>
             </div>
             <div class="form-content">
-                <div class="second-heading"></div>
-                <div class="form-right-section"></div>
-                <div class="form-left-section"></div>
+                <div class="form-text">
+                    <p class="form-heading-text">Let's do this!</p>
+                </div>
+                <div class="first-row">
+                    <div class="form-row">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="form-row">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+                <div class="second-row">
+                    <div class="form-row">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">PHONE</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="third-row">
+                    <div class="form-row">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirm-password">
+                    </div>
+                </div>
             </div>
             <div class="button-content">
-                <div class="button"></div>
-                <div class="log-in-text"></div>
+                <div class="button">
+                    <button type="submit">Create Account</button>
+                </div>
+                <div class="log-in-text">
+                    <p>Already have an accoont? <a href="">Log In</a></p>
+                </div>
             </div>
         </div>
     </div>

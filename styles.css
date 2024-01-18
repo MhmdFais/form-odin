@@ -6,6 +6,13 @@
 :root{
     --backgroung-color : black;
     --text-color : white;
+    --button-color : #596D48;
+    --main-font: "Varela Round", sans-serif;
+}
+
+@font-face {
+    font-family: my-font;
+    src: url(../form-odin/font/Norse-Bold.otf);
 }
 
 .main-container{
@@ -18,7 +25,7 @@
 .left-side{
     background-image: url(../form-odin/images/bg.jpg);
     height: 100vh;
-    width: 45%;
+    min-width: 40%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -41,19 +48,62 @@
 .logo-text{
     color: var(--text-color);
     font-size: 5rem;
+    font-family: my-font;
 }
 
 .image-credit{
     position: fixed;
     bottom: 1rem;
-    left: 23%;
+    left: 20%;
 }
 
 .para-credit{
     color: var(--text-color);
 }
 
-a{
+.pc-link{
     color: var(--text-color);
     list-style: none;
 }
+
+.right-side{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-width: 60%;
+    padding-left: 1.4rem;
+}
+
+.main-heading{
+    min-height: 33%;
+    max-height: 35%;
+}
+
+.heading-para{
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.main-para, .secondary-line{
+    font-size: 24px;
+    font-family: var(--main-font);
+}
+
+span{
+    font-style: italic;
+}
+
+.form-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row, .second-row, .third-row{
+    display: flex;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+

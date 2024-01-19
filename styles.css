@@ -77,7 +77,6 @@
 .main-heading{
     min-height: 33%;
     max-height: 35%;
-    background-color: var(--main-heading-bg);
 }
 
 .heading-para{
@@ -143,4 +142,45 @@ input[type="password"]:focus-visible
 {
     outline: 1px solid #007bff; 
     box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.button-content{
+    padding-left: 1.4rem;
+    margin-top: 1.6rem;
+}
+
+.button{
+    padding-bottom: 1.2rem;
+}
+
+button{
+    padding: 0.7rem 3rem;
+    border-radius: 0.5rem;
+    font-family: var(--main-font);
+    border: none;
+    background-color: var(--button-color);
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+.log-in-text-a{
+    color: var(--button-color);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 115%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa{
+    color: var(--button-color);
 }
